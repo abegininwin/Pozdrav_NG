@@ -5,8 +5,10 @@ html {
     background-size: cover; */
 }
 
-@media only screen and (max-width: 767px) {   
-    body {    
+@media (max-width: 900px) {   
+    html {    
          /* Здесь размер файла уменьшен на 93% чтобы  увеличить скорость загрузки страницы с мобильных устройств */   
-           background-image: url('img/fon_small.jpg');  
+            background-image: url('img/fon_small.jpg'); 
+            background-repeat: no-repeat;
+            /* background-position: center; */
          } }
