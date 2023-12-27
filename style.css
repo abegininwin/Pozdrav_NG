@@ -1,3 +1,5 @@
-/* html {
-    background-image: url('img/fon.jpg')
-} */
+body {
+    background-image: url('img/fon.jpg');
+    background-position: center center;
+    background-size: cover;
+}
