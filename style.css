@@ -1,12 +1,14 @@
-html {
+body {
     background-image: url('img/fon.jpg');
-    /* background-position: center center;
+    background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: cover; */
+    background-size: cover; 
 }
 
 @media (max-width: 900px) {   
-    html {    
+    body {    
          /* Здесь размер файла уменьшен на 93% чтобы  увеличить скорость загрузки страницы с мобильных устройств */   
             background-image: url('img/fon_small.jpg'); 
             background-repeat: no-repeat;
