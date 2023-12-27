@@ -7,10 +7,9 @@ body {
     background-size: cover; 
 }
 
-@media (max-width: 400px) {   
-    body {    
-         /* Здесь размер файла уменьшен на 93% чтобы  увеличить скорость загрузки страницы с мобильных устройств */   
+@media (max-width: 576px) {   
+    body { 
             background-image: url('img/fon_small.jpg'); 
-            background-repeat: no-repeat;
+            /*background-repeat: no-repeat; */
             /* background-position: center; */
          } }
